@@ -7,6 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBasicsApplication {
 
 	public static void main(String[] args) {
+		BinarySearchImpl binary = new BinarySearchImpl();
+		int result = binary.binarySearch(new int[] {2,3,4}, 3);
+		System.out.println("Coupling results");
+		System.out.println(result);
+		
 		SpringApplication.run(SpringBasicsApplication.class, args);
 	}
 
