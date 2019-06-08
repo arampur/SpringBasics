@@ -29,6 +29,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<artifactId>javax.inject</artifactId>
+			<groupId>javax.inject</groupId>
+			<version>1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
