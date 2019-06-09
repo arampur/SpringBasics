@@ -6,12 +6,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import com.arampur.spring.basics.Spring_Basics.BinarySearchImpl;
 
 import cdidemo.CdiDemoClass;
 
 @SpringBootApplication
+@ComponentScan("com.arampur.spring.basics.Spring_Basics")
 public class SpringCdiApplication {
 	//Creating logger
 	private static Logger LOGGER = LoggerFactory.getLogger(SpringCdiApplication.class);
